@@ -36,8 +36,8 @@ getJSON(
 
     for (let i = 0; i < data.length; i++) {
       let totaalSpot = data[i].parkingStatus.totalCapacity;
-      let availableSpot = data[i].parkingStatus.availableCapacity;
-      let percent = (availableSpot / totaalSpot) * 100;
+      let currentAvailableSpot = data[i].parkingStatus.availableCapacity;
+      let percent = (currentAvailableSpot / totaalSpot) * 100;
 
       let div = document.createElement("div");
       let h1 = document.createElement("h1");

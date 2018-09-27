@@ -13,8 +13,6 @@ body {
   margin: 0 auto;
 }
 
-.container {
-}
 .parkings {
   display: flex;
   justify-content: space-evenly;
@@ -47,4 +45,14 @@ h1 {
 .parking-red {
   box-shadow: 0 0 20px 0 #ff4c3e;
   border: 2px solid #ff4c3e;
+}
+
+.fa-arrow-up {
+  font-size: 7vw;
+  color: #68ff4e;
+}
+
+.fa-arrow-down {
+  font-size: 7vw;
+  color: #ff4c3e;
 }
