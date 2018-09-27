@@ -1,0 +1,50 @@
+/*
+#FF873E - orange
+#68FF4E - green
+#FF4C3E - red
+*/
+
+body {
+  background-color: #c7cac8;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container {
+}
+.parkings {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.parking {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.parking-green {
+  box-shadow: 0 0 20px 0 #68ff4e;
+  border: 2px solid #68ff4e;
+}
+
+.parking-orange {
+  box-shadow: 0 0 20px 0 #ff873e;
+  border: 2px solid #ff873e;
+}
+
+.parking-red {
+  box-shadow: 0 0 20px 0 #ff4c3e;
+  border: 2px solid #ff4c3e;
+}

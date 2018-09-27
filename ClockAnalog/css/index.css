@@ -1,0 +1,70 @@
+/*
+#585A59
+#D2160E
+#B4B4B4
+#f3f0f0
+*/
+
+body {
+  background-color: #585a59;
+}
+
+.clock-analog {
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+  color: #f3f0f0;
+  width: 400px;
+  height: 400px;
+  font-size: 1vw;
+  margin: 10% auto 0 auto;
+  border-radius: 50%;
+  background: #000;
+}
+
+.num {
+  position: absolute;
+  top: 5px;
+  left: calc(50% - 0.5vw);
+  text-align: center;
+}
+
+.numbers {
+  height: 100%;
+}
+.num1 {
+  position: absolute;
+  height: 100%;
+}
+
+.hourArrow {
+  height: 0.2vw;
+  width: 110px;
+  background-color: rgb(46, 228, 128);
+  position: absolute;
+  top: calc(50% - 0.1vw);
+  left: calc(50% - 0.1vw);
+
+  transform-origin: 0 0;
+}
+
+.minuteArrow {
+  height: 0.2vw;
+  width: 150px;
+  background-color: rgb(158, 136, 136);
+  position: absolute;
+  top: calc(50% - 0.1vw);
+  left: calc(50% - 0.1vw);
+
+  transform-origin: 0 0;
+}
+
+.secondArrow {
+  height: 0.2vw;
+  width: 170px;
+  background-color: rgb(204, 44, 44);
+  position: absolute;
+  top: calc(50% - 0.1vw);
+  left: calc(50% - 0.1vw);
+
+  transform-origin: 0 0;
+}

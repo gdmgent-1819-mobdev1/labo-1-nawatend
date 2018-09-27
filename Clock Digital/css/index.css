@@ -1,0 +1,17 @@
+/*
+#585A59
+#D2160E
+#B4B4B4
+*/
+
+body {
+  background-color: #585a59;
+}
+
+.clock-digital {
+  font-family: "Courier New", Courier, monospace;
+  color: #b4b4b4;
+  width: 58%;
+  font-size: 12vw;
+  margin: 10% auto 0 auto;
+}

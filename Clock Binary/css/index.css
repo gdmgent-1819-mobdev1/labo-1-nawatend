@@ -1,0 +1,54 @@
+/*
+#585A59
+#D2160E
+#B4B4B4
+#f3f0f0
+*/
+
+body {
+  background-color: #585a59;
+}
+
+.clock-digital {
+  font-family: "Courier New", Courier, monospace;
+  color: #b4b4b4;
+  width: 24vw;
+  font-size: 5vw;
+  margin: 10% auto 0 auto;
+  box-shadow: 0 0 10px 0 slategrey;
+}
+
+.clock-binary {
+  font-family: "Courier New", Courier, monospace;
+  color: #b4b4b4;
+  width: 35vw;
+  font-size: 3vw;
+  margin: 10% auto 0 auto;
+  box-shadow: 0 0 10px 0 slategrey;
+}
+
+.bits {
+  padding: 8px;
+}
+.bit {
+  width: 25px;
+  height: 25px;
+}
+
+.bitHour {
+  background-color: #000;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.bitMinute {
+  background-color: #000;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.bitSecond {
+  background-color: #000;
+  display: inline-block;
+  border-radius: 50%;
+}
